@@ -102,19 +102,42 @@
 // console.log(favMovies.indexOf("Fast and Furious"));
 
 // Where is Waldo
-const whereIsWaldo = [
-  ["Timmy", "Frank"],
-  "Eggbert",
-  ["Lucinda", "Jacc", "Neff", "Snoop"],
-  ["Petunia", ["Baked Goods", "Waldo"]],
+// const whereIsWaldo = [
+//   ["Timmy", "Frank"],
+//   "Eggbert",
+//   ["Lucinda", "Jacc", "Neff", "Snoop"],
+//   ["Petunia", ["Baked Goods", "Waldo"]],
+// ];
+
+// multiD = whereIsWaldo.splice(1, 1);
+// console.log(multiD);
+
+// multiD1 = whereIsWaldo.flat();
+// multiD2 = multiD1.splice(4, 1, "No One");
+// console.log(multiD1);
+
+// multiD3 = whereIsWaldo[2][1][1];
+// console.log(multiD3);
+
+// Excited Kitten
+// const kittyTalk = [
+//   "Love me, pet me! HSSSSSS!",
+//   "...human... why you taking pictures of me...?",
+//   "...the catnip made me do it...",
+//   "...why does the red dot always get away...?",
+// ];
+
+// for (i = 0; i <= 20; i++) {
+//   console.log(kittyTalk[0]);
+//   if (i % 2 === 0) {
+//     console.log(kittyTalk[Math.floor(Math.random() * (2 - 1 + 1) + 1)]);
+//   }
+// }
+
+const nums = [
+  14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12,
+  17, 12, 71, 18, 15, 12,
 ];
-
-multiD = whereIsWaldo.splice(1, 1);
-console.log(multiD);
-
-multiD1 = whereIsWaldo.flat();
-multiD2 = multiD1.splice(4, 1, "No One");
-console.log(multiD1);
-
-multiD3 = whereIsWaldo[2][1][1];
-console.log(multiD3);
+nums.sort();
+const indexOfMedian = Math.floor(nums.length / 2);
+console.log(nums[indexOfMedian]);
