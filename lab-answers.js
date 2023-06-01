@@ -47,3 +47,56 @@
 // for (let x of ninjaTurtles) {
 //   console.log(x.toUpperCase());
 // }
+
+const favMovies = [
+  "Jaws",
+  "The Fellowship of the Ring",
+  "Howl's Moving Castle",
+  "Django Unchained",
+  "Cloud Atlas",
+  "The Usual Suspects",
+  "Toy Story",
+  "Conan the Barbarian",
+  "Titanic",
+  "Harry Potter",
+  "Fried Green Tomatoes",
+  "Volver",
+  "Oculus",
+  "Seven",
+  "Black Panther",
+  "Harry Potter",
+  "Imitation of Life",
+  "Snatch",
+  "Fast and Furious",
+];
+
+index = favMovies.indexOf("Titanic");
+console.log(index);
+
+index1 = favMovies.sort();
+console.log(index1);
+
+favMovies.pop();
+console.log(favMovies);
+
+favMovies.push("Guardians of the Galaxy");
+console.log(favMovies);
+
+index2 = favMovies.reverse();
+console.log(index2);
+
+index3 = favMovies.shift();
+console.log(index3);
+
+index4 = favMovies.unshift();
+console.log(index4);
+
+index5 = favMovies.splice(14, 1, "Avatar");
+console.log(index5);
+
+index6 = favMovies.slice(9);
+console.log(index6);
+
+console.log(favMovies);
+
+console.log(favMovies.indexOf("Fast and Furious"));
