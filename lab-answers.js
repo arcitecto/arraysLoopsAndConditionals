@@ -48,55 +48,73 @@
 //   console.log(x.toUpperCase());
 // }
 
-const favMovies = [
-  "Jaws",
-  "The Fellowship of the Ring",
-  "Howl's Moving Castle",
-  "Django Unchained",
-  "Cloud Atlas",
-  "The Usual Suspects",
-  "Toy Story",
-  "Conan the Barbarian",
-  "Titanic",
-  "Harry Potter",
-  "Fried Green Tomatoes",
-  "Volver",
-  "Oculus",
-  "Seven",
-  "Black Panther",
-  "Harry Potter",
-  "Imitation of Life",
-  "Snatch",
-  "Fast and Furious",
+// const favMovies = [
+//   "Jaws",
+//   "The Fellowship of the Ring",
+//   "Howl's Moving Castle",
+//   "Django Unchained",
+//   "Cloud Atlas",
+//   "The Usual Suspects",
+//   "Toy Story",
+//   "Conan the Barbarian",
+//   "Titanic",
+//   "Harry Potter",
+//   "Fried Green Tomatoes",
+//   "Volver",
+//   "Oculus",
+//   "Seven",
+//   "Black Panther",
+//   "Harry Potter",
+//   "Imitation of Life",
+//   "Snatch",
+//   "Fast and Furious",
+// ];
+
+// index = favMovies.indexOf("Titanic");
+// console.log(index);
+
+// index1 = favMovies.sort();
+// console.log(index1);
+
+// favMovies.pop();
+// console.log(favMovies);
+
+// favMovies.push("Guardians of the Galaxy");
+// console.log(favMovies);
+
+// index2 = favMovies.reverse();
+// console.log(index2);
+
+// index3 = favMovies.shift();
+// console.log(index3);
+
+// index4 = favMovies.unshift();
+// console.log(index4);
+
+// index5 = favMovies.splice(14, 1, "Avatar");
+// console.log(index5);
+
+// index6 = favMovies.slice(9);
+// console.log(index6);
+
+// console.log(favMovies);
+
+// console.log(favMovies.indexOf("Fast and Furious"));
+
+// Where is Waldo
+const whereIsWaldo = [
+  ["Timmy", "Frank"],
+  "Eggbert",
+  ["Lucinda", "Jacc", "Neff", "Snoop"],
+  ["Petunia", ["Baked Goods", "Waldo"]],
 ];
 
-index = favMovies.indexOf("Titanic");
-console.log(index);
+multiD = whereIsWaldo.splice(1, 1);
+console.log(multiD);
 
-index1 = favMovies.sort();
-console.log(index1);
+multiD1 = whereIsWaldo.flat();
+multiD2 = multiD1.splice(4, 1, "No One");
+console.log(multiD1);
 
-favMovies.pop();
-console.log(favMovies);
-
-favMovies.push("Guardians of the Galaxy");
-console.log(favMovies);
-
-index2 = favMovies.reverse();
-console.log(index2);
-
-index3 = favMovies.shift();
-console.log(index3);
-
-index4 = favMovies.unshift();
-console.log(index4);
-
-index5 = favMovies.splice(14, 1, "Avatar");
-console.log(index5);
-
-index6 = favMovies.slice(9);
-console.log(index6);
-
-console.log(favMovies);
-
-console.log(favMovies.indexOf("Fast and Furious"));
+multiD3 = whereIsWaldo[2][1][1];
+console.log(multiD3);
