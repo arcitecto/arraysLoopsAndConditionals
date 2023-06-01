@@ -188,6 +188,13 @@ const thomsCloset = [
 // console.log(Her + Him);
 
 // Dirty Laundry
-for (i = 0; i <= kristynsCloset.length; i++) {
-  console.log("WHIRR: Now washing " + i);
-}
+// for (i = 0; i <= kristynsCloset.length; i++) {
+//   console.log("WHIRR: Now washing " + i);
+// }
+
+// Inventory
+let first = thomsCloset[0];
+let second = thomsCloset[1];
+let third = thomsCloset[2];
+
+console.log(first, second, third);
