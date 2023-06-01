@@ -176,8 +176,14 @@ const thomsCloset = [
 ];
 
 // Alien Attire
-let removeItem = kristynsCloset.shift();
-let kristynsShoe = removeItem;
-console.log(kristynsShoe);
-thomsCloset.push(kristynsShoe);
-console.log(thomsCloset);
+// let removeItem = kristynsCloset.shift();
+// let kristynsShoe = removeItem;
+// console.log(kristynsShoe);
+// thomsCloset.push(kristynsShoe);
+// console.log(thomsCloset);
+
+// Dress Us Up
+let Her = `Kristyn is wearing ${kristynsCloset[1]}, ${kristynsCloset[3]} and ${kristynsCloset[4]}.`;
+console.log(Her);
+let Him = ` While Thom is wearing ${thomsCloset[0][0]}, ${thomsCloset[1][1]} and ${thomsCloset[2][1]}.`;
+console.log(Her + Him);
