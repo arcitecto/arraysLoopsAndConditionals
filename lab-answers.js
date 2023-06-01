@@ -184,6 +184,5 @@ const thomsCloset = [
 
 // Dress Us Up
 let Her = `Kristyn is wearing ${kristynsCloset[1]}, ${kristynsCloset[3]} and ${kristynsCloset[4]}.`;
-console.log(Her);
 let Him = ` While Thom is wearing ${thomsCloset[0][0]}, ${thomsCloset[1][1]} and ${thomsCloset[2][1]}.`;
 console.log(Her + Him);
